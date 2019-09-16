@@ -1,0 +1,11 @@
+import math as m
+
+a,b,c= map(int,input().split(" "))
+
+a=m.ceil(a/c)
+
+b=m.ceil(b/c)
+
+k=a*b
+
+print(k)
