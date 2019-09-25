@@ -1,0 +1,18 @@
+inp1=list(map(int,input()))
+inp2=list(map(int,input()))
+i=0
+a=len(inp1)
+x=1
+list1=[]
+while i<a :
+    if inp1[i] == inp2[i]:
+        list1.append("0")
+        i=i+1
+
+    else:
+        list1.append("1")
+        i=i+1
+
+
+list1="".join(list1)
+print(list1)
