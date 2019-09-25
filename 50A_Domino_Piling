@@ -1,0 +1,12 @@
+import math as mat
+m,n=map(int,input().split())
+ans=m*n
+if ans%2 == 0:
+    ans=ans/2
+    print(int(ans))
+else:
+    ans=mat.ceil(ans/2)
+    ans=ans-1
+    print(ans)
+
+
