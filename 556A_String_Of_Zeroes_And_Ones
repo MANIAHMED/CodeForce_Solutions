@@ -1,0 +1,23 @@
+
+x=int(input())
+lis=list(map(int,input()))
+
+inp=lis.count(0)
+
+inp1=lis.count(1)
+
+
+if  inp == inp1:
+    ans=inp-inp1
+    print(ans)
+
+elif inp > inp1:
+    ans=inp-inp1
+    print(ans)
+
+elif inp < inp1:
+    ans=inp1-inp
+    print(ans)
+
+
+
