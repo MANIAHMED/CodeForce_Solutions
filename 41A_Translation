@@ -1,0 +1,13 @@
+str1=input()
+str2=input()
+
+
+str1=list(str1)
+ans=str1.__reversed__()
+ans="".join(ans )
+
+
+if ans ==str2:
+    print("YES")
+else:
+    print("NO")
